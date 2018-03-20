@@ -1,12 +1,12 @@
 # Site settings
-title: Harmony School of Excellece
+title: Harmony School of Excellece / FTC Robotics Team
 subtitle: 
 email: youremailaddress@gmail.com
 description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
 baseurl: "/FTCrobotics" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
-street_address: 4401B San Francisco Ave. 
+street_address: 4401 San Francisco Ave. Building B 
 city: Laredo
 state: Tx
 zip_code: 78041
