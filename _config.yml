@@ -1,0 +1,33 @@
+# Site settings
+title: Harmony School of Excellece
+subtitle:
+email: youremailaddress@gmail.com
+description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
+baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
+
+# Social settings
+500px_url:
+facebook_url: https://www.facebook.com/hselaredo/
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/company/713845/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/HseLaredo
+
+# Sass building
+sass:
+    sass_dir: _sass
+
+# Build settings
+markdown: kramdown
