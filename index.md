@@ -39,6 +39,7 @@ layout: landing_page
 	</div>
 </section>
 
+
 <!-- Section -->
 <section>
 	<header class="major">
