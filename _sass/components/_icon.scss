@@ -15,23 +15,3 @@
 			display: none;
 		}
 	}
-
-	.brand-icon {
-		@include brand-icon;
-		border-bottom: none;
-		position: relative;
-
-		> .label {
-			display: none;
-		}
-	}
-
-	.new-icon {
-		@include new-icon;
-		border-bottom: none;
-		position: relative;
-
-		> .label {
-			display: none;
-		}
-	}

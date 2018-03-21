@@ -22,52 +22,6 @@
 
 }
 
-@mixin brand-icon($content: false, $where: before) {
-
-	text-decoration: none;
-
-	&:#{$where} {
-
-		@if $content {
-			content: $content;
-		}
-
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		font-family: 'Font Awesome 5 Brands';
-	  display: inline-block;
-	  font-style: normal;
-	  font-variant: normal;
-	  text-rendering: auto;
-	  line-height: 1;
-
-	}
-
-}
-
-@mixin new-icon($content: false, $where: before) {
-
-	text-decoration: none;
-
-	&:#{$where} {
-
-		@if $content {
-			content: $content;
-		}
-
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		font-family: 'Font Awesome 5 Free';
-		  display: inline-block;
-		  font-style: normal;
-		  font-variant: normal;
-		  text-rendering: auto;
-		  line-height: 1;
-
-	}
-
-}
-
 /// Applies padding to an element, taking the current element-margin value into account.
 /// @param {mixed} $tb Top/bottom padding.
 /// @param {mixed} $lr Left/right padding.

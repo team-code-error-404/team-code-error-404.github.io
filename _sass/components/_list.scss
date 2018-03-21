@@ -60,22 +60,6 @@
 						font-size: 1.25em;
 					}
 				}
-
-				.brand-icon {
-					color: inherit;
-
-					&:before {
-						font-size: 1.25em;
-					}
-				}
-
-				.new-icon {
-					color: inherit;
-
-					&:before {
-						font-size: 1.25em;
-					}
-				}
 			}
 		}
 
@@ -84,7 +68,7 @@
 			padding: 0;
 
 			li {
-				@include new-icon;
+				@include icon;
 				border-top: solid 1px _palette(border);
 				margin: 1.5em 0 0 0;
 				padding: 1.5em 0 0 3em;
