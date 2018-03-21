@@ -49,7 +49,7 @@
 	}
 
 	.select-wrapper {
-		@include icon;
+		@include new-icon;
 		display: block;
 		position: relative;
 
@@ -97,7 +97,7 @@
 		z-index: -1;
 
 		& + label {
-			@include icon;
+			@include new-icon;
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;

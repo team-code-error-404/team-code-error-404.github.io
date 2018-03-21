@@ -66,6 +66,70 @@
 				}
 			}
 
+			.brand-icon {
+				@include vendor('flex-grow', '0');
+				@include vendor('flex-shrink', '0');
+				display: block;
+				height: 10em;
+				line-height: 10em;
+				margin: 0 _size(element-margin) 0 0;
+				text-align: center;
+				width: 10em;
+
+				&:before {
+					color: _palette(accent);
+					font-size: 2.75rem;
+					position: relative;
+					top: 0.05em;
+				}
+
+				&:after {
+					@include vendor('transform', 'rotate(45deg)');
+					border-radius: 0.25rem;
+					border: solid 2px _palette(border);
+					content: '';
+					display: block;
+					height: 7em;
+					left: 50%;
+					margin: -3.5em 0 0 -3.5em;
+					position: absolute;
+					top: 50%;
+					width: 7em;
+				}
+			}
+
+			.new-icon {
+				@include vendor('flex-grow', '0');
+				@include vendor('flex-shrink', '0');
+				display: block;
+				height: 10em;
+				line-height: 10em;
+				margin: 0 _size(element-margin) 0 0;
+				text-align: center;
+				width: 10em;
+
+				&:before {
+					color: _palette(accent);
+					font-size: 2.75rem;
+					position: relative;
+					top: 0.05em;
+				}
+
+				&:after {
+					@include vendor('transform', 'rotate(45deg)');
+					border-radius: 0.25rem;
+					border: solid 2px _palette(border);
+					content: '';
+					display: block;
+					height: 7em;
+					left: 50%;
+					margin: -3.5em 0 0 -3.5em;
+					position: absolute;
+					top: 50%;
+					width: 7em;
+				}
+			}
+
 			.content {
 				@include vendor('flex-grow', '1');
 				@include vendor('flex-shrink', '1');
@@ -141,12 +205,59 @@
 						width: 4em;
 					}
 				}
+
+				.brand-icon {
+					height: 6em;
+					line-height: 6em;
+					margin: 0 0 (_size(element-margin) * 0.75) 0;
+					width: 6em;
+
+					&:before {
+						font-size: 1.5rem;
+					}
+
+					&:after {
+						height: 4em;
+						margin: -2em 0 0 -2em;
+						width: 4em;
+					}
+				}
+
+				.new-icon {
+					height: 6em;
+					line-height: 6em;
+					margin: 0 0 (_size(element-margin) * 0.75) 0;
+					width: 6em;
+
+					&:before {
+						font-size: 1.5rem;
+					}
+
+					&:after {
+						height: 4em;
+						margin: -2em 0 0 -2em;
+						width: 4em;
+					}
+				}
+
 			}
 		}
 
 		@include breakpoint(xsmall) {
 			article {
 				.icon {
+					&:before {
+						font-size: 1.25rem;
+					}
+				}
+
+				.brand-icon {
+					&:before {
+						font-size: 1.25rem;
+					}
+				}
+
+				.new-icon {
 					&:before {
 						font-size: 1.25rem;
 					}

@@ -9,28 +9,28 @@ layout: landing_page
 	</header>
 	<div class="features">
 		<article>
-			<span class="icon fa-flask"></span>
+			<span class="new-icon fa-flask"></span>
 			<div class="content">
 				<h3>Impact</h3>
 				<p>The positive impact on FIRST Tech Challenge participants is gratifying and well documented. Over 86% have more interest in doing well in school and 87% are more interested in attending college.</p>
 			</div>
 		</article>
 		<article>
-			<span class="icon fa-hand-grab-o"></span>
+			<span class="new-icon fa-handshake"></span>
 			<div class="content">
 				<h3>Team Basics</h3>
 				<p>The really cool thing about FIRST Tech Challenge is being part of a team. All skill levels are welcomed and needed, technical and non-technical. Read on for more about team basics, time frame, commitment, and skills required.</p>
 			</div>
 		</article>
 		<article>
-			<span class="icon fa-graduation-cap"></span>
+			<span class="new-icon fa-graduation-cap"></span>
 			<div class="content">
 				<h3>Scholarships</h3>
 				<p>A big advantage to participating in FIRST is gaining access to millions in college scholarships made available by colleges, universities, and corporations who support FIRST. This is exclusive financial help open only to FIRST team members, giving them a competitive leg up on other students seeking educational funds.</p>
 			</div>
 		</article>
 		<article>
-			<span class="icon fa-line-chart"></span>
+			<span class="new-icon fa-chart-line"></span>
 			<div class="content">
 				<h3>The Event Experience</h3>
 				<p>Hard work pays off! Each FIRST Tech Challenge season culminates with local and regional events where qualifying teams compete for awards and a spot in the FIRST Championship.</p>

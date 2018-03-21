@@ -25,6 +25,12 @@
 		.features article .icon {
 			float: left;
 		}
+		.features article .brand-icon {
+			float: left;
+		}
+		.features article .new-icon {
+			float: left;
+		}
 
 /* Posts */
 
