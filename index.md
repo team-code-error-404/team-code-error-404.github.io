@@ -46,7 +46,10 @@ layout: landing_page
 		<h2>Ipsum sed dolor</h2>
 	</header>
 	<div class="posts">
-	{% for post in site.posts limit:6 %}
+
+
+
+<!--	{% for post in site.posts limit:6 %}
 		<article>
 			<a href="{{ post.url | relative_url }}" class="image"><img src="{{ '/' | absolute_url }}{{ post.image }}" alt="{{ post.title }}" /></a>
 			<h3>{{ post.title }}</h3>
@@ -55,6 +58,18 @@ layout: landing_page
 				<li><a href="{{ post.url | relative_url }}" class="button">More</a></li>
 			</ul>
 		</article>
-	{% endfor %}
+	{% endfor %} -->
+
+		{% for post in site.tags.featured limit: 6 %}
+		<article>
+			<a href="{{ post.url | relative_url }}" class="image"><img src="{{ '/' | absolute_url }}{{ post.image }}" alt="{{ post.title }}" /></a>
+			<h3>{{ post.title }}</h3>
+			{{ post.excerpt }}
+			<ul class="actions">
+				<li><a href="{{ post.url | relative_url }}" class="button">More</a></li>
+			</ul>
+		</article>
+		{% endfor %}
+
 	</div>
 </section>
