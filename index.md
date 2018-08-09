@@ -5,7 +5,7 @@ layout: landing_page
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Erat lacinia</h2>
+		<h2>What is FIRST Robotics Competition?</h2>
 	</header>
 	<div class="features">
 		<article>
