@@ -36,7 +36,7 @@ markdown: kramdown
 #Prose Config
 prose:
   rooturl: '_posts'
-  siteurl: 'https://hselaredoit.github.io/HarmonyintheNews/'
+  siteurl: 'https://hselaredoit.github.io/FTCrobotics/'
   media: 'assets/images'
   ignore:
     - index.md
