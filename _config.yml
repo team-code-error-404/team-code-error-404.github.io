@@ -32,3 +32,32 @@ sass:
 
 # Build settings
 markdown: kramdown
+
+#Prose Config
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://hselaredoit.github.io/HarmonyintheNews/'
+  media: 'assets/images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /tag
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: "true"
+          options:
+            - name: "Page"
+              value: "page"
+            - name: "Featured"
+              value: "featured"
