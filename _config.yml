@@ -1,17 +1,17 @@
 # Site settings
-title: Harmony School of Excellece
-subtitle: QUIERO TACOS
-email: youremailaddress@gmail.com
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
+title: Harmony School of Excellece / FTC Robotics Team
+subtitle:
+email: sergio.ortega@harmonytx.org
+description:
 baseurl: "/FTCrobotics" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 4401 San Francisco Ave. Building B
+city: Laredo
+state: Tx
+zip_code: 78041
 country: United States of America
-phone: (716) 555-5555
+phone: (956) 791-0007
 
 # Social settings
 500px_url:
@@ -24,6 +24,7 @@ linkedin_url: https://www.linkedin.com/company/713845/
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/HseLaredo
+discord_url:
 
 # Sass building
 sass:
@@ -31,3 +32,32 @@ sass:
 
 # Build settings
 markdown: kramdown
+
+#Prose Config
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://hselaredoit.github.io/FTCrobotics/'
+  media: 'assets/images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /tag
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: "true"
+          options:
+            - name: "Page"
+              value: "page"
+            - name: "Featured"
+              value: "featured"
