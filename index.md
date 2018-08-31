@@ -4,7 +4,7 @@ layout: landing_page
 
 <!-- Section -->
 <section>
-<a name="FIRST">
+<a name="FIRST"/>
 	<header class="major">
 		<h2>What is FIRST Robotics Competition?</h2>
 	</header>
