@@ -47,7 +47,6 @@ prose:
     - /tag
   metadata:
     _posts:
-<<<<<<< HEAD
       - name: "layout"
         field:
           element: "hidden"
@@ -57,30 +56,22 @@ prose:
           element: "text"
           label: "Date"
           value: "CURRENT_DATETIME"
-=======
->>>>>>> master
       - name: "title"
         field:
           element: "text"
           label: "title"
-<<<<<<< HEAD
       - name: "image"
         field:
           element: "text"
           label: "Featured Image"
           value: "assets/images/"
-=======
->>>>>>> master
       - name: "tags"
         field:
           element: "multiselect"
           label: "Tags"
           alterable: "true"
           options:
-<<<<<<< HEAD
-=======
             - name: "Page"
               value: "page"
->>>>>>> master
             - name: "Featured"
               value: "featured"
