@@ -48,19 +48,6 @@ layout: landing_page
 	</header>
 	<div class="posts">
 
-
-
-<!--	{% for post in site.posts limit:6 %}
-		<article>
-			<a href="{{ post.url | relative_url }}" class="image"><img src="{{ '/' | absolute_url }}{{ post.image }}" alt="{{ post.title }}" /></a>
-			<h3>{{ post.title }}</h3>
-			{{ post.excerpt }}
-			<ul class="actions">
-				<li><a href="{{ post.url | relative_url }}" class="button">More</a></li>
-			</ul>
-		</article>
-	{% endfor %} -->
-
 		{% for post in site.tags.featured limit: 6 %}
 		<article>
 			<a href="{{ post.url | relative_url }}" class="image"><img src="{{ '/' | absolute_url }}{{ post.image }}" alt="{{ post.title }}" /></a>
