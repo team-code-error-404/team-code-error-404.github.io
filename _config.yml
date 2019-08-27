@@ -1,6 +1,6 @@
 # Site settings
-title: FTC Robotics Team /
-subtitle: Harmony School of Excellece
+title: FTC Robotics Team 
+subtitle: / Harmony School of Excellece
 email: sergio.ortega@harmonytx.org
 description:
 baseurl: "/FTCrobotics" # the subpath of your site, e.g. /blog
