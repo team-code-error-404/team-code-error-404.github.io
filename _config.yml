@@ -4,7 +4,7 @@ subtitle: / Harmony School of Excellence
 email: sergio.ortega@harmonytx.org
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://team-code-error-404.github.io" # the base hostname & protocol for your site
 author:
 street_address: 4401 San Francisco Ave. Building B
 city: Laredo
@@ -38,7 +38,7 @@ markdown: kramdown
 #Prose Config
 prose:
   rooturl: '_posts'
-  siteurl: 'https://hselaredoit.github.io/FTCrobotics/'
+  siteurl: 'https://team-code-error-404.github.io/'
   media: 'assets/images'
   ignore:
     - index.md
