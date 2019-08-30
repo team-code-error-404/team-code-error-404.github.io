@@ -3,7 +3,7 @@ title: FTC Robotics Team
 subtitle: / Harmony School of Excellence
 email: sergio.ortega@harmonytx.org
 description:
-baseurl: "/FTCrobotics" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
 street_address: 4401 San Francisco Ave. Building B
