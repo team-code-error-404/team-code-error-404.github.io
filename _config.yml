@@ -1,7 +1,7 @@
 # Site settings
-title: FTC Robotics Team 
+title: Team Code Error 404
 subtitle: / Harmony School of Excellence
-email: sergio.ortega@harmonytx.org
+email: dalfaro@harmonytx.org
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://team-code-error-404.github.io" # the base hostname & protocol for your site
