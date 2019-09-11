@@ -48,6 +48,16 @@
 			}
 		}
 
+		&.post {
+			float: center;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+			width: 100%;
+			img {
+				width: 60%;
+			}
+		}
+
 		&.main {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 1.5) 0;
