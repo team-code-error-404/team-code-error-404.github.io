@@ -19,6 +19,12 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Install Gems",
+            "type": "shell",
+            "command": "bundle install",
+            "problemMatcher": []
         }
     ]
 }
