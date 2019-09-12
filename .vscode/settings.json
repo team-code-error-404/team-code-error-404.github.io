@@ -1,0 +1,8 @@
+{
+    "frontMatter.taxonomy.tags": [
+        "featured"
+    ]
+    "emmet.includeLanguages": {
+        "jekyll": "html"
+    }
+}
