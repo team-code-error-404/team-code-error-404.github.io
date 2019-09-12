@@ -6,13 +6,18 @@
         {
             "label": "Start Server",
             "type": "shell",
-            "command": "start http://127.0.0.1:4000/; bundle exec jekyll serve",
-            "group": {
-                "kind": "build",
-                "isDefault": true
+            "windows": {
+                "command": "start http://127.0.0.1:4000/; bundle exec jekyll serve"
             },
             "osx": {
                 "command": "open http://127.0.0.1:4000/; bundle exec jekyll serve"
+            },
+            "osx": {
+                "command": "xdg-open http://127.0.0.1:4000/; bundle exec jekyll serve"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
             }
         }
     ]
