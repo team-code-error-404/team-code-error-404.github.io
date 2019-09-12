@@ -12,7 +12,7 @@
             "osx": {
                 "command": "open http://127.0.0.1:4000/; bundle exec jekyll serve"
             },
-            "osx": {
+            "linux": {
                 "command": "xdg-open http://127.0.0.1:4000/; bundle exec jekyll serve"
             },
             "group": {
