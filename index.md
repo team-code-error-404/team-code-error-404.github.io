@@ -41,6 +41,7 @@ layout: landing_page
 </section>
 
 
+{%- if site.tags.featured.post > 1 -%}
 <!-- Section -->
 <section>
 	<header class="major">
@@ -61,3 +62,4 @@ layout: landing_page
 
 	</div>
 </section>
+{%- endif -%}
